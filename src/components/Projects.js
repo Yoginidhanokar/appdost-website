@@ -62,7 +62,13 @@ const Projects = () => {
               
               <div className="flex gap-4">
                 {project.links.map((link, idx) => (
-                  <a key={idx} href="#" className="text-blue-600 hover:text-blue-700 font-medium underline">
+                  <a 
+                    key={idx} 
+                    href="https://appdost.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-blue-600 hover:text-blue-700 font-medium underline"
+                  >
                     {link}
                   </a>
                 ))}

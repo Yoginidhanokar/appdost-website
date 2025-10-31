@@ -60,7 +60,12 @@ const OpenSource = () => {
               
               <p className="text-gray-600 mb-4 leading-relaxed">{project.description}</p>
               
-              <a href="#" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold underline">
+              <a 
+                href="https://github.com/appdost" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold underline"
+              >
                 {project.link}
                 <span className="ml-2">→</span>
               </a>
